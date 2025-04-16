@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e1feff;
+  color: #6985ff;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.btn {
+  background-color: #6985ff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #85bcff;
+}
